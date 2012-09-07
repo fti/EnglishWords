@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="app_name">İngilizce Kelimeler</string>
+    <string name="copyright">© trandroid - trandroid.com</string>
+    <string name="copyrightshort">© trandroid </string>
+    <string name="bytrandroid">by trandroid</string>
+    <string name="msgbildiklerim">Malesef bildiğiniz kelime yok, Bu yüzden tüm kelimeler listeleniyor</string>
+    <string name="msgbilemediklerim">Süpersiniz, BİLEMEDİĞİNİZ kelime yok, Bu yüzden tüm kelimeler listeleniyor</string>
+    <string name="msgerror">Galiba bir sorun oluştu, Uygulamayı baştan kurmayı deneyiniz yada mail atınız</string>
+    <string name="msgalert">Kelimeleri dinleyebilmeniz için telefonunuzda TTS(textToSpeech) programının kurulu olması gerekmektedir.&quot; +
+	    				&quot;\n\n Kurulu değilse gerekli yönlendirme, okuma ekranında yapılacaktır, no problem.&quot; +
+	    				&quot;\n\n Ayrıca uygulama içindeki Speech Rate ile konuşmayı yavaşlatabilir yada hızlandırabilirsiniz.</string>
+    <string name="msgalerttitle">Kelimeleri Dinleyemiyorsanız</string>
+</resources>

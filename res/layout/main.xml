@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#0099CC">
+
+	<TextView android:id="@+id/copyrightText"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#333" android:text="@string/copyright" android:textStyle="bold"
+		android:layout_width="wrap_content" android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content" android:layout_marginBottom="20dp"
+		android:layout_centerHorizontal="true" />
+	<ImageView android:layout_width="fill_parent" android:id="@+id/homeHeader"
+		android:src="@drawable/home_header" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+		
+	<LinearLayout android:id="@+id/homeMenu" android:orientation="vertical" android:layout_marginTop="20dp" 
+		android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal"
+		android:layout_below="@id/homeHeader" android:layout_centerHorizontal="true">
+		<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+			<ImageView android:layout_width="wrap_content" android:id="@+id/homeKpds" android:onClick="onKpds"
+				android:src="@drawable/btn_homekpds" android:layout_height="wrap_content"/>
+			<ImageView android:layout_width="wrap_content" android:id="@+id/homeUds" android:onClick="onUds"
+				android:src="@drawable/btn_homeuds" android:layout_height="wrap_content"/>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+			<ImageView android:layout_width="wrap_content" android:id="@+id/homeToefl" android:onClick="onToefl"
+				android:src="@drawable/btn_hometoefl" android:layout_height="wrap_content"/>
+			<ImageView android:layout_width="wrap_content" android:id="@+id/homeBiz" android:onClick="onBiz"
+				android:src="@drawable/btn_homebiz" android:layout_height="wrap_content"/>
+		</LinearLayout>
+	
+	</LinearLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:background="@drawable/ad_bg" android:id="@+id/adRelLayout"
+		android:layout_height="wrap_content" android:layout_below="@+id/homeMenu" 
+		android:layout_alignParentLeft="true" android:layout_marginTop="30dp"
+		android:layout_alignParentRight="true">
+		<com.mopub.mobileads.MoPubView
+			android:id="@+id/adLayout"
+			android:layout_centerVertical="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</RelativeLayout>
+	
+
+
+</RelativeLayout>

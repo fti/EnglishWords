@@ -1,0 +1,13 @@
+h2. İngilizce Kelimeler
+
+İnglizce Kelimeler android uygulaması ülkemizde yapılan TOEFL, KPDS, UDS sınavlarında en çok çıkan kelimeleri ezberlemenizi sağlamayı hedeflemektedir.
+Uygulamaya gözatmak için: https://play.google.com/store/apps/details?id=com.trandroid.ingilizcekelimeler
+
+Tüm hakları ortadadır, istediğiniz gibi kullanın
+
+h2. English Words
+
+This app help to memorize english exam words like TOEFL, KPDS, UDS. 
+You can listen or see Turkish meaning of the word. To get it, see https://play.google.com/store/apps/details?id=com.trandroid.ingilizcekelimeler
+
+All rights are free, use how you want
