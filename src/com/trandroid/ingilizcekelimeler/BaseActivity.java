@@ -12,7 +12,7 @@ import android.view.MenuItem;
 public class BaseActivity extends Activity {
     
 	public static final String MoPub_ID = "agltb3B1Yi1pbmNyDQsSBFNpdGUY5q-AEww";
-	
+	 
 	  @Override
 	    public boolean onCreateOptionsMenu(Menu m) {
 			super.onCreateOptionsMenu(m);
